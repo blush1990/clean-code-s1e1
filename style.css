@@ -37,7 +37,7 @@ ul {
   margin:0;
   padding: 0px;
 }
-.editMode, h3 {
+li, h3 {
   list-style:none;
 }
 input,button{
@@ -95,25 +95,25 @@ p > button:hover {
 }
 
 /* Task list */
-.editMode {
+li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
 }
-.editMode > * {
+li > * {
   vertical-align: middle;
 }
 
-.editMode > input[type="checkbox"] {
+li > input[type="checkbox"] {
   margin: 0 10px;
 }
-.editMode > label {
+li > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.editMode >    input[type="text"] {
+li >    input[type="text"] {
   width: 226px
 }
 li > button.delete:hover {
@@ -135,7 +135,7 @@ button.delete img {
 }
 
 /* Edit Task */
-ul .editMode input[type="text"] {
+ul li input[type="text"] {
   display:none
 }
 
