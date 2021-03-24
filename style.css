@@ -35,7 +35,7 @@ ul {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+.editMode, h3 {
   list-style:none;
 }
 input,button{
@@ -93,25 +93,25 @@ p > button:hover {
 }
 
 /* Task list */
-li {
+.editMode {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
 }
-li > * {
+.editMode > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.editMode > input[type="checkbox"] {
   margin: 0 10px;
 }
-li > label {
+.editMode > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+.editMode >    input[type="text"] {
   width: 226px
 }
 li > button.delete:hover {
@@ -133,7 +133,7 @@ button.delete img {
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+ul .editMode input[type="text"] {
   display:none
 }
 
